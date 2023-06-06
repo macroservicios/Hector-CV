@@ -1,0 +1,39 @@
+.habilidades {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.habilidades-titulo {
+    font-size:30px;
+    color: var(--color-primario);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.habilidades-habilidades {
+    font-size: 15px;
+    color: var(--color-texto-invertido);
+    font-weight: 500;
+    background-color: var(--color-primario);
+    box-shadow: 0 4px 10px rgba(56, 38, 38, 0.25);
+    border-radius: 42px;
+    padding: 0.5em 0.7em;
+    margin: 10px;
+}
+
+.habilidades-lista {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (min-width:950px) {
+    .habilidades-titulo {
+        font-size:50px;
+    }  
+
+}
