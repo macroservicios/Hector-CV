@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@400;800 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../web/Proyecto/proyecto final/normalize.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/educacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="foto">
+                <img
+                height="50"
+                 width="60" 
+                 src="EJE-LOGO.png">
+                 <div >
+                    Héctor Silva                    
+                 </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir-menú">
+            <img 
+                height="50"
+                width="50"
+                src="boton hamburguesa.png" alt="abrir menú">
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar-menú">
+            <img 
+                height="40"
+                width="40"
+                src="boton de cerrar.png" alt="cerrar menú">
+            </button>            
+                <li><a href="index.html">Volver</a></li>                
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <H1 class="H1-T">PROYECTOS REALIZADOS</H1>
+
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+    <section class="IA1" id="IA_yolo">
+        <H2 class="H2-proy">Segmentación de imagenes con Yolov8</H2>
+        <img width="auto" height="225px"src="imagenes_IA2/IA1_segment1.jpg" alt="descripción de la imagen">
+        <img width="auto" height="225px"src="imagenes_IA2/IA1_segment2.jpg" alt="descripción de la imagen"> 
+        <p class="segment-yolo">
+        En este proyecto, utilizo las bibliotecas OpenCV y YOLOv8 de Ultralytics para detectar y segmentar objetos en
+        videos capturados por una cámara IP en tiempo real. El modelo está entrenado para segmentar la espuma que se
+        forma sobre la superficie de un líquido. Para hacer esto, el modelo suma los píxeles de cada segmentación y
+        compara el resultado con el total de píxeles en la imagen. Si la suma de los píxeles supera el 70% del total
+        de la imagen, el modelo muestra un mensaje de “Nivel OK” para indicar que el nivel de espuma está dentro de los
+        límites aceptables ó "Nivel Bajo" si está por debajo del 70%".<br>
+        <br>
+        En resumen, este proyecto utiliza tecnologías avanzadas de visión por computadora e inteligencia artificial para
+        detectar y segmentar objetos en tiempo real, con el objetivo específico de medir el nivel de espuma en una
+        superficie. La combinación de las bibliotecas OpenCV y YOLOv8 permite al modelo procesar imágenes rápidamente
+        y con alta precisión, lo que lo hace ideal para aplicaciones en tiempo real.</p>
+
+    </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+    <section class="IA2" id="IA_tensor">
+        <H2 class="H2-proy">Red neuronal con Tensorflow y Grafana</H2>
+        <img width="40%" height="auto"src="imagenes_IA2/IA2_grafana.jpg" alt="descripción de la imagen"> 
+        <p class="tensor-grafana">
+        Este proyecto consiste en un modelo de predicción para optimizar la curva de secado en un proceso de malteo de cebada.
+        El malteado es el proceso de transformar los granos de cebada en malta mediante la germinación y el secado con aire caliente.
+        La curva de secado es la cual determina la humedad final del grano, que influye en el color, el aroma, el sabor y
+        la actividad enzimática de la malta. El modelo usa una red neuronal que recibe como entradas las variables de temperatura y
+        humedad de las diferentes zonas del proceso, y devuelve como salida la presión optima de la caldera para cumplir con el setpoint.
+        El modelo se entrena con datos reales extraídos de Grafana, y se valida con datos nuevos tomados del proceso en tiempo real.
+        El objetivo de este proyecto es realizar predicciones basadas en diferentes condiciones durante el proceso y ajustar los valores
+        para obtener la una malta con loa mejores parametros de calidad posible.</p>
+        
+    </section>
+    </div>
+
+    <div class="horizontal-padding vertical-padding">
+        <section class="ME1" id="Ges_man">
+            <H2 class="H2-proy">Gestión de preventivas con Excel</H2>
+            <img width="40%" height="auto" src="imagenes_IA2/ME1_menu.jpg" alt="descripción de la imagen"> 
+            <p class="gesman-excel">Este es un sistema de gestión de mantenimiento preventivo y correctivo creado 
+                con macros en Excel, en el que se pueden utilizar
+                características como:<br>
+                <ul class="ul-ME1">
+                <li>Registro y seguimiento de equipos y activos.</li>
+                <li>Creación de procedimientos.</li>
+                <li>Programación y asignación de tareas.</li>
+                <li>Registro de mantenimientos correctivos.</li>
+                <li>Generación de informes y análisis de datos.</li>
+                </ul>
+        </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+        <section class="ME2" id="Ges_stock">
+            <H2 class="H2-proy">Gestión de stock con Excel</H2>
+            <img class="con-marco" width="40%" height="auto"src="imagenes_IA2/ME2_menu.jpg" alt="descripción de la imagen">
+            <p class="gestock-excel">Es una herramienta que permite controlar la entrada y salida de productos en un 
+                almacén, tienda o taller.
+                Posee también las siguientes características:<br>
+                <ul class="ul-ME2">
+                <li>Registro y seguimiento de materiales.</li>
+                <li>Fijar stock minimo.</li>
+                <li>Fijar los puntos de pedido.</li>
+                <li>Asinar ubicación dentro del almacén.</li>
+                </ul>     
+
+        </section>
+    </div>
+
+    <footer>
+      <p>Creado por: Héctor Silva Senas</p>
+      <p>Última actualización: 30/07/2023</p>
+    </footer>
+
+</body>
+</html>
