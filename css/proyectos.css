@@ -1,0 +1,68 @@
+.IA1 {
+    text-align: center;
+}
+
+.IA2 {
+    text-align: center;
+}
+
+.ME1 {
+    text-align: center;
+}
+
+.ME2 {
+    text-align: center;
+}
+
+.H1-T {
+    text-align: center;
+}
+
+.H2-proy {
+    margin: 0px 0px 50px 0px;
+    color: var(--color-primario);
+}
+
+.ul-ME1 {
+    text-align: justify;
+    margin: 20px 0px 0px 400px;
+}
+
+.ul-ME2 {
+    text-align: justify;
+    margin: 20px 0px 0px 400px;
+}
+
+.tensor-grafana {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 200px 0px 200px;
+
+}
+
+.segment-yolo {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 200px 0px 200px;
+
+}
+
+.gesman-excel {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 200px 0px 200px;
+
+}
+
+.gestock-excel {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 200px 0px 200px;
+
+}
+
+.con-marco {
+    border: 2px solid rgb(145, 125, 125);
+}
+
+
