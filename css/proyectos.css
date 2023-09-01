@@ -36,37 +36,111 @@
 .tensor-grafana {
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 200px 0px 200px;
+    margin: 50px 70px 0px 70px;
 
 }
 
 .segment-yolo {
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 200px 0px 200px;
+    margin: 50px 70px 0px 70px;
 
 }
 
 .gesman-excel {
     text-indent: 5%;
     text-align: justify;
-    margin: 50px 200px 0px 200px;
+    margin: 50px 70px 0px 70px;
 
 }
 
 .gestock-excel {
     text-indent: 5%;
-    text-align: justify;
-    margin: 50px 200px 0px 200px;
+    text-align: center;
+    margin: 50px 70px 0px 70px;
 
-}
-
-.con-marco {
-    border: 2px solid rgb(145, 125, 125);
 }
 
 .update {
     font-size: small;
+}
+
+
+.con-marco {
+    width: 360px; 
+    height: 225px;
+    border: 2px solid rgb(145, 125, 125);
+}
+
+
+.imgIA1 {
+    width: 360px;
+    height: 225px;
+}
+
+.imgIA2 {
+    width: 360px; 
+    height: 225px;
+    
+}
+
+.imgME1 {
+    width: 360px; 
+    height: 225px;
+    
+}
+
+
+@media (min-width:950px) {
+    .imgIA2 {
+        width: 480px; 
+        height: 285px;
+        
+    }
+
+    .imgME1 {
+        width: 480px; 
+        height: 285px;
+        
+    }
+
+    .con-marco {
+        width: 480px; 
+        height: 285px;
+        border: 2px solid rgb(145, 125, 125);
+    }
+
+    .tensor-grafana {
+        margin: 50px 200px 0px 200px;
+    
+    }
+
+    .segment-yolo{
+        margin: 50px 200px 0px 200px;
+    
+    }
+    
+    .gesman-excel {
+        margin: 50px 200px 0px 200px;
+    
+    }
+    
+    .gestock-excel {
+        margin: 50px 200px 0px 200px;
+    
+    }
+
+    .ul-ME1 {
+        text-align: justify;
+        margin: 20px 0px 0px 400px;
+    }
+    
+    .ul-ME2 {
+        text-align: justify;
+        margin: 20px 0px 0px 400px;
+    }
+    
+  
 }
 
 
