@@ -25,12 +25,12 @@
 
 .ul-ME1 {
     text-align: justify;
-    margin: 20px 0px 0px 400px;
+    margin: 20px 0px 0px 70px;
 }
 
 .ul-ME2 {
     text-align: justify;
-    margin: 20px 0px 0px 400px;
+    margin: 20px 0px 0px 70px;
 }
 
 .tensor-grafana {
@@ -131,12 +131,10 @@
     }
 
     .ul-ME1 {
-        text-align: justify;
         margin: 20px 0px 0px 400px;
     }
     
     .ul-ME2 {
-        text-align: justify;
         margin: 20px 0px 0px 400px;
     }
     
