@@ -1,3 +1,9 @@
+
+.BI1 {
+    text-align: center;
+}
+
+
 .IA1 {
     text-align: center;
 }
@@ -40,12 +46,22 @@
 
 }
 
+
+.Dashboards-BI {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 35px 0px 20px;
+
+}
+
+
 .segment-yolo {
     text-indent: 5%;
     text-align: justify;
     margin: 50px 35px 0px 20px;
 
 }
+
 
 .gesman-excel {
     text-indent: 5%;
@@ -72,6 +88,15 @@
     border: 2px solid rgb(145, 125, 125);
 }
 
+.imgBI1 {
+    width: 320px;
+    height: 225px;
+}
+
+.imgBI2 {
+    width: 320px;
+    height: 225px;
+}
 
 .imgIA1 {
     width: 320px;
@@ -88,6 +113,13 @@
     width: 320px; 
     height: 225px;
     
+}
+
+.contenedor-imgIA1 {
+    position: relative;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1); /* Cambia los valores según tus preferencias */
+    border-radius: 8px; /* Opcional: Agrega bordes redondeados */
+    overflow: hidden; /* Evita que la sombra se extienda más allá del contenedor */
 }
 
 
@@ -116,6 +148,11 @@
     }
 
     .segment-yolo{
+        margin: 50px 200px 0px 200px;
+    
+    }
+
+    .Dashboards-BI{
         margin: 50px 200px 0px 200px;
     
     }
