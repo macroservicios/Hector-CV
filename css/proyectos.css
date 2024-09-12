@@ -66,15 +66,22 @@
     color: white;
 }
 
+
+/* Estilo general para pantallas grandes */
 .ul-ME1 {
     text-align: justify;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 0px 400px;
+    list-style-type: disc;  /* Añade viñetas a la lista */
+    /*font-size: 26px;  Tamaño de fuente para pantallas grandes */
     padding-bottom: 5%;
+    
 }
 
 .ul-ME2 {
     text-align: justify;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 0px 400px;
+    list-style-type: disc;  /* Añade viñetas a la lista */
+    /*font-size: 26px;  Tamaño de fuente para pantallas grandes */
     padding-bottom: 5%;
 }
 
@@ -119,75 +126,73 @@
 }
 
 
-@media (min-width:950px) {
-    .imgIA2 {
-        width: 480px; 
+/* Para pantallas más grandes */
+@media (min-width: 950px) {
+    .imgBI1, .imgIA1, .imgIA2, .imgME1, .imgME2, .con-marco {
+        width: 480px;
         height: 285px;
-        
     }
 
-    .imgME1 {
-        width: 480px; 
-        height: 285px;
-        
+    .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
+        margin: 50px 200px 0 200px;
     }
-    
-    /* Estilos para pantallas medianas (tablets) */
-@media (max-width: 949px) and (min-width: 600px) {
-    .imgIA2, .imgME1 {
+
+    .ul-ME1, .ul-ME2 {
+        margin: 20px 0 0 400px;
+    }
+}
+
+/* Para pantallas medianas */
+@media (max-width: 949px) and (min-width: 601px) {
+    .imgBI1, .imgIA1, .imgIA2, .imgME1, .imgME2, .con-marco {
         width: 350px;
-        height: 210px;
+        height: 200px;
+    }
+
+    .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
+        margin: 40px 100px 0 100px;
+    }
+
+    .ul-ME1, .ul-ME2 {
+        margin: 15px 0 0 200px;
     }
 }
 
-/* Estilos para pantallas pequeñas (móviles) */
-@media (max-width: 599px) {
-    .imgIA2, .imgME1 {
-        width: 100%; /* Se ajusta al 100% del contenedor */
-        height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+    .imgBI1, .imgIA1, .imgIA2, .imgME1, .imgME2, .con-marco {
+        width: 100%;
+        height: auto;
+    }
+
+    .Dashboards-BI, .tensor-grafana, .segment-yolo, .gesman-excel, .gestock-excel {
+        margin: 20px 20px 0 20px;
+    }
+
+    .ul-ME1, .ul-ME2 {
+        margin: 10px 0 0 0;
     }
 }
 
-    .con-marco {
-        width: 480px; 
-        height: 285px;
-        border: 2px solid rgb(145, 125, 125);
+/* Ajustes para pantallas medianas */
+@media (max-width: 949px) and (min-width: 601px) {
+    .ul-ME1, .ul-ME2 {
+        margin: 15px 0px 0px 200px; /* Reduce el margen a la izquierda */
+        /*font-size: 14px; /* Reduce un poco el tamaño de fuente */
+        padding-bottom: 5%;
     }
+}
 
-    .Dashboards-BI {
-        margin: 50px 200px 0px 200px;
-    
-    }
 
-    .tensor-grafana {
-        margin: 50px 200px 0px 200px;
-    
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .ul-ME1, .ul-ME2 {
+        margin: 10px 20px;  /* Aplica un margen más pequeño alrededor */
+        padding: 0;  /* Elimina el padding adicional si es necesario */
+        /*font-size: 12px; /* Reduce el tamaño de la fuente para pantallas más pequeñas */
+        list-style-position: inside;  /* Mueve las viñetas dentro del cuadro de la lista */
+        padding-bottom: 5%;
     }
-
-    .segment-yolo{
-        margin: 50px 200px 0px 200px;
-    
-    }
-    
-    .gesman-excel {
-        margin: 50px 200px 0px 200px;
-    
-    }
-    
-    .gestock-excel {
-        margin: 50px 200px 0px 200px;
-    
-    }
-
-    .ul-ME1 {
-        margin: 20px 0px 0px 400px;
-    }
-    
-    .ul-ME2 {
-        margin: 20px 0px 0px 400px;
-    }
-    
-  
 }
 
 .horizontal-padding vertical-padding{
