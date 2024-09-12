@@ -9,12 +9,18 @@
 }
 
 .Dashboards-BI{
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 35px 0px 20px;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
 
 .segment-yolo{
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 35px 0px 20px;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
@@ -22,9 +28,31 @@
 
 
 .tensor-grafana{
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 35px 0px 20px;
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
+    
+}
+
+.gesman-excel {
+    text-indent: 5%;
+    text-align: justify;
+    margin: 50px 35px 0px 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.gestock-excel {
+    text-indent: 5%;
+    text-align: center;
+    margin: 50px 35px 0px 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+
 }
 
 .H1-T {
@@ -48,38 +76,6 @@
     text-align: justify;
     margin: 20px 0px 0px 20px;
     padding-bottom: 5%;
-}
-
-.tensor-grafana {
-    text-indent: 5%;
-    text-align: justify;
-    margin: 50px 35px 0px 20px;
-
-}
-
-.segment-yolo {
-    text-indent: 5%;
-    text-align: justify;
-    margin: 50px 35px 0px 20px;
-
-}
-
-.gesman-excel {
-    text-indent: 5%;
-    text-align: justify;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-
-}
-
-.gestock-excel {
-    text-indent: 5%;
-    text-align: center;
-    margin: 50px 35px 0px 20px;
-    padding-right: 5%;
-    padding-left: 5%;
-
 }
 
 .update {
@@ -135,11 +131,32 @@
         height: 285px;
         
     }
+    
+    /* Estilos para pantallas medianas (tablets) */
+@media (max-width: 949px) and (min-width: 600px) {
+    .imgIA2, .imgME1 {
+        width: 350px;
+        height: 210px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 599px) {
+    .imgIA2, .imgME1 {
+        width: 100%; /* Se ajusta al 100% del contenedor */
+        height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    }
+}
 
     .con-marco {
         width: 480px; 
         height: 285px;
         border: 2px solid rgb(145, 125, 125);
+    }
+
+    .Dashboards-BI {
+        margin: 50px 200px 0px 200px;
+    
     }
 
     .tensor-grafana {
