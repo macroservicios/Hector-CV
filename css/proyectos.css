@@ -1,11 +1,17 @@
-.IA1 {
+
+
+.proy-sec {
     text-align: center;
     background-color: #333333;
     border-radius: 15px;
     color: white;
     padding-top: 1%;  
- 
+}
 
+.Dashboards-BI{
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
 
 .segment-yolo{
@@ -15,41 +21,15 @@
 }
 
 
-.IA2 {
-    text-align: center;
-    background-color: #333333;
-    border-radius: 15px;
-    color: white;
-    padding-top: 1%;
-
-}
-
 .tensor-grafana{
     padding-right: 5%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
 
-.ME1 {
-    text-align: center;
-    background-color: #333333;
-    border-radius: 15px;
-    color: white;
-    padding-top: 1%;
-    padding-block-end: 5%;
-}
-
-.ME2 {
-    text-align: center;
-    background-color: #333333;
-    border-radius: 15px;
-    color: white;
-    padding-top: 1%;
-    padding-block-end: 5%;
-}
-
 .H1-T {
     text-align: center;
+    color: #333333;
 }
 
 .H2-proy {
@@ -61,12 +41,13 @@
 .ul-ME1 {
     text-align: justify;
     margin: 20px 0px 0px 20px;
-    
+    padding-bottom: 5%;
 }
 
 .ul-ME2 {
     text-align: justify;
     margin: 20px 0px 0px 20px;
+    padding-bottom: 5%;
 }
 
 .tensor-grafana {
@@ -112,6 +93,10 @@
     border: 2px solid rgb(145, 125, 125);
 }
 
+.imgBI1 {
+    width: 320px;
+    height: 225px;
+}
 
 .imgIA1 {
     width: 320px;
